@@ -1,22 +1,19 @@
 chrome.webRequest.onBeforeRequest.addListener(
   function(details) {
-    var redirects, pattern, from, to, redirecUrl;
-    redirects = [
+    var redirects = [
       { 
-        from: 'https://docs.microsoft.com/\w{2}-\w{2}/(.*)',
-        to:   'https://docs.microsoft.com/en-us/$1'
+        regex: new RegExp('https://docs.microsoft.com/\\w{2}-\\w{2}/(.*)', 'ig'),
+        replace: 'https://docs.microsoft.com/en-us/$1'
       }
     ];
     for (var i=0; i < redirects.length; i++) {
-      try {
-        pattern = new RegExp(redirects[i].from, 'ig');
-      } catch(err) {
-        //bad pattern
-        continue;
-      }
-      match = details.url.match(pattern);
+      
+      var regex = redirects[i].regex;
+      var replace = redirects[i].replace;
+
+      match = details.url.match(regex);
       if (match) {
-        redirectUrl = details.url.replace(pattern, redirects[i].to);
+        redirectUrl = details.url.replace(regex, replace);
         if (redirectUrl != details.url) {
           return {redirectUrl: redirectUrl};
         }

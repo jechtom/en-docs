@@ -8,5 +8,5 @@ Redirects from machine translated `docs.microsoft.com` to English version.
 
 ## 
 
-* Thanks to Matouš Moravec for inspiration
+* Thanks to Matous Moravec for inspiration
 * [chrome-extension-redirector](https://github.com/bendavis78/chrome-extension-redirector/tree/master/redirector)
