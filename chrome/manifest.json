@@ -1,0 +1,12 @@
+{
+  "name": "English docs.microsoft.com",
+  "description": "Redirects from machine translated docs.microsoft.com to English version.",
+  "version": "1.0",
+  "manifest_version": 2,
+  "background": {"scripts":["background.js"]},
+  "permissions": [
+    "<all_urls>",
+    "webRequest",
+    "webRequestBlocking"
+  ]
+}
