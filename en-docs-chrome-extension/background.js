@@ -1,13 +1,13 @@
 chrome.webRequest.onBeforeRequest.addListener(
   function(details) {
     var redirects = [
-      { 
+      {
         regex: new RegExp('https://docs.microsoft.com/\\w{2}-\\w{2}/(.*)', 'ig'),
         replace: 'https://docs.microsoft.com/en-us/$1'
       }
     ];
     for (var i=0; i < redirects.length; i++) {
-      
+
       var regex = redirects[i].regex;
       var replace = redirects[i].replace;
 
@@ -23,7 +23,7 @@ chrome.webRequest.onBeforeRequest.addListener(
   },
   {
     urls: [
-      "<all_urls>",
+      "*://docs.microsoft.com/*",
     ],
     types: ["main_frame"]
   },
