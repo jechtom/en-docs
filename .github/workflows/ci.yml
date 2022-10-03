@@ -14,7 +14,7 @@ jobs:
         uses: montudor/action-zip@v1.0.0
         with:
           # See montudor/action-zip README.md for more info
-          args: zip -qq -r en-docs-chrome-extension.zip -d en-docs-chrome-extension
+          args: zip -qq -r en-docs-chrome-extension.zip en-docs-chrome-extension
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3.1.0
         with:
