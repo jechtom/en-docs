@@ -15,7 +15,7 @@ Redirects from machine translated `docs.microsoft.com` to English version.
 ## Change Log
 
 * `1.0` - Initial version
-* `1.1` - #1; #2
+* `1.1` - [#1](https://github.com/jechtom/en-docs/pull/1); [#2](https://github.com/jechtom/en-docs/issues/2)
 
 # For Devs
 
