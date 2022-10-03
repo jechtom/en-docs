@@ -1,14 +1,14 @@
 {
-  "name": "English docs.microsoft.com",
-  "description": "Redirects from machine translated docs.microsoft.com to English version.",
-  "version": "1.0",
+  "name": "English learn.microsoft.com",
+  "description": "Redirects from machine translated learn.microsoft.com (formerly known as docs.microsoft.com) to English version.",
+  "version": "1.1",
   "icons": {
     "128": "icon128.png"
   },
   "manifest_version": 2,
   "background": {"scripts":["background.js"]},
   "permissions": [
-    "*://docs.microsoft.com/*",
+    "*://learn.microsoft.com/*",
     "webRequest",
     "webRequestBlocking"
   ]

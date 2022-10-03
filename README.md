@@ -10,6 +10,12 @@ Redirects from machine translated `docs.microsoft.com` to English version.
 
 * Thanks to Matous Moravec for inspiration
 * [chrome-extension-redirector](https://github.com/bendavis78/chrome-extension-redirector/tree/master/redirector)
+* @ThorstenHans for implementing least privilege principle
+
+## Change Log
+
+* `1.0` - Initial version
+* `1.1` - #1; #2
 
 # For Devs
 
