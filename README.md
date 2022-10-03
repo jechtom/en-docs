@@ -16,6 +16,7 @@ Redirects from machine translated `learn.microsoft.com` to English version.
 
 * `1.0` - Initial version
 * `1.1` - [#1](https://github.com/jechtom/en-docs/pull/1); [#2](https://github.com/jechtom/en-docs/issues/2)
+* `1.2` - [#3](https://github.com/jechtom/en-docs/issues/3)
 
 # For Devs
 
