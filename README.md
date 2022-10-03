@@ -1,6 +1,6 @@
-# English docs.microsoft.com Chrome Extension
+# English learn.microsoft.com Chrome Extension
 
-Redirects from machine translated `docs.microsoft.com` to English version.
+Redirects from machine translated `learn.microsoft.com` to English version.
 
 ## Install
 

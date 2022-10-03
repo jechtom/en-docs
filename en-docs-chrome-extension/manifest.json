@@ -1,6 +1,6 @@
 {
   "name": "English learn.microsoft.com",
-  "description": "Redirects from machine translated learn.microsoft.com (formerly known as docs.microsoft.com) to English version.",
+  "description": "Redirects from machine translated learn.microsoft.com to English version.",
   "version": "1.1",
   "icons": {
     "128": "icon128.png"
