@@ -1,0 +1,21 @@
+name: CI
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  prepare-zip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: action-zip
+        uses: montudor/action-zip@v1.0.0
+        with:
+          # See montudor/action-zip README.md for more info
+          args: zip -qq -r en-docs-chrome-extension.zip -d en-docs-chrome-extension
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v3.1.0
+        with:
+          path: en-docs-chrome-extension.zip
