@@ -1,7 +1,7 @@
 {
-  "name": "English learn.microsoft.com",
-  "description": "Redirects from machine translated learn.microsoft.com to English version.",
-  "version": "1.2",
+  "name": "English microsoft.com",
+  "description": "Redirects from machine translated learn.microsoft.com or support.microsoft.com or azure.microsoft.com to English version.",
+  "version": "1.3",
   "minimum_chrome_version": "96",
   "icons": {
     "128": "icon128.png"
@@ -17,7 +17,9 @@
     ]
   },
   "host_permissions": [
-    "*://learn.microsoft.com/*"
+    "*://learn.microsoft.com/*",
+    "*://support.microsoft.com/*",
+    "*://azure.microsoft.com/*"
   ],
   "permissions": [
     "declarativeNetRequestWithHostAccess"
