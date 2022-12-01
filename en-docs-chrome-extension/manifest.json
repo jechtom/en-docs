@@ -1,6 +1,6 @@
 {
   "name": "English microsoft.com",
-  "description": "Redirects from machine translated learn.microsoft.com or support.microsoft.com or azure.microsoft.com to English version.",
+  "description": "Redirects to English version of learn.microsoft.com and azure.microsoft.com and support.microsoft.com.",
   "version": "1.3",
   "minimum_chrome_version": "96",
   "icons": {
