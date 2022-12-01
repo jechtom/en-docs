@@ -2,6 +2,7 @@
   "name": "English learn.microsoft.com",
   "description": "Redirects from machine translated learn.microsoft.com to English version.",
   "version": "1.2",
+  "minimum_chrome_version": "96",
   "icons": {
     "128": "icon128.png"
   },
@@ -19,6 +20,6 @@
     "*://learn.microsoft.com/*"
   ],
   "permissions": [
-    "declarativeNetRequest"
+    "declarativeNetRequestWithHostAccess"
   ]
 }
