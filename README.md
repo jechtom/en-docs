@@ -1,6 +1,6 @@
-# English learn.microsoft.com Chrome Extension
+# English `*.microsoft.com` Chrome Extension
 
-Redirects from machine translated `learn.microsoft.com` to English version.
+Redirects to English version of `learn.microsoft.com` and `azure.microsoft.com` and `support.microsoft.com`.
 
 ## Install
 
