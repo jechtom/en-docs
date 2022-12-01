@@ -5,11 +5,11 @@
         "action": {
             "type": "redirect",
             "redirect": {
-                "regexSubstitution": "https://learn.microsoft.com/en-us/\\1"
+                "regexSubstitution": "https://\\1/en-us/\\3"
             }
         },
         "condition": {
-            "regexFilter": "^https?://learn.microsoft.com/\\w{2}-\\w{2}/(.*)$",
+            "regexFilter": "^https?://((learn|azure|support)\\.microsoft\\.com)/\\w{2}-\\w{2}/(.*)$",
             "resourceTypes": [
                 "main_frame"
             ]
