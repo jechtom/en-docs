@@ -25,4 +25,4 @@ Redirects to English version of `learn.microsoft.com` and `azure.microsoft.com` 
 
 * Zip folder `en-docs-chrome-extension`
 * Upload to [Chrome Webstore](https://chrome.google.com/webstore/developer/dashboard)
-* Debugging: [chrome://extensions/](chrome://extensions/) > Enable Developer Mode > Load Unpacked > Select folder `en-docs-chrome-extension`
+* Debugging: chrome://extensions/ > Enable Developer Mode > Load Unpacked > Select folder `en-docs-chrome-extension`
